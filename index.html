@@ -20,15 +20,16 @@
   --primary-dark: #5E1313; /* darker shade */
   --primary-grey: #aba6a6; /* background grey */
   --accent: #d90404;       /* bright red highlight */
-  --light: #e8caca;        /* light background tint */
+  --dark: #595656;        /* dark background tint */
   --text-dark: #1a1a1a;   /* black text */
   --text-light: #ffffff;   /* white text */
+  --text-maroon: #8a1c1c; /* maroon text */
   --bs-primary: var(--primary);
 }
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Poppins", sans-serif;
-      background-color: var(--light);
+      background-color: var(--primary-grey);
       color: var(--text-dark)
     }
 
@@ -93,7 +94,7 @@
       letter-spacing: 0.12em;
       font-size: 0.8rem;
       font-weight: 600;
-      color: #9ca3af;
+      color: var(--text-maroon);
     }
   </style>
 </head>
@@ -136,7 +137,7 @@
         </div>
         <h1>
           Automate documentation.<br>
-          Accelerate reimbursement.
+          Accelerate reimbursement.<br>
           Arrange scheduling. 
         </h1>
         <p class="lead">
